@@ -27,7 +27,7 @@ body {
   background-color: white;
 }
 
-.header {
+header {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgba(236, 236, 236, 1);
@@ -227,9 +227,8 @@ body {
 .button.secondary:focus {
   color: var(--additional-text-color-white);
   background-color: var(--accent-color);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
-  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* Секція */
@@ -439,7 +438,7 @@ body {
 }
 
 .team-social-link:hover .icon-facebook,
-.team-social-link:hover .icon-facebook {
+.team-social-link:focus .icon-facebook {
   fill: var(--additional-text-color-white);
 }
 
@@ -574,9 +573,8 @@ body {
 
 .portfolio-list .flex-element:hover,
 .portfolio-list .flex-element:focus {
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* Подвал */
